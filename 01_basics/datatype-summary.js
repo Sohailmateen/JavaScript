@@ -36,3 +36,31 @@ const myFunction = function(){
 }// object function
 
 console.log(typeof myFunction); 
+
+
+//**************************************************************//
+
+// stack (primitive) , Heap (not primitive)
+
+let myname = "sohail"
+
+let anothername = myname
+anothername = "mateen"
+
+console.log((myname));
+console.log(anothername);
+
+let userOne = {
+    email:"sohail@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mateen@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
